@@ -355,6 +355,5 @@ int main()
 
     printf("%d/%d\n", tests_reussis, tests_executes);
 
-    //return tests_executes - tests_reussis;
-    return 22;
+    return tests_executes - tests_reussis;
 }
