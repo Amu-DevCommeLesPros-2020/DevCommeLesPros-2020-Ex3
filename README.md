@@ -1,4 +1,4 @@
-![](workflows/Test%20master/badge.svg)
+![](https://github.com/thierryseegers/ProgImpAv-2020-Ex3/workflows/Test%20master/badge.svg)
 
 # ProgImpAv-2020-Ex3
 
