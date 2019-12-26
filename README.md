@@ -6,7 +6,7 @@ Modèle de départ pour exercices d'introduction au travail par équipe avec git
 
 ## Instructions de départ
 
-Ces intructions présupposent que vous avez déjà suivi les instructions du [premier exercice](https://github.com/thierryseegers/ProgImpAv-2020-Ex1) pour la création de compte et l'installation des programmes et eextensions nécéssaires.
+Ces intructions présupposent que vous avez déjà suivi les instructions du [premier exercice](https://github.com/thierryseegers/ProgImpAv-2020-Ex1) pour la création de compte et l'installation des programmes et extensions nécéssaires.
 
 Pour cet exercice, vous devez travailler en binôme sur un même dépôt. Choisissez qui du binôme créera le dépôt. Par la suite, ce même dépôt sera cloné par les deux membres du binôme.
 
@@ -41,6 +41,7 @@ Il vous faudra les décommenter à mesure qui vous implémenterez les fonctional
 
 Vous devrez:
 
+1. Modifier l'URL en tête de ce document pour refléter l'URL de votre dépôt.
 1. Complétez le fichier `makefile`:
     - Complétez les cibles déjà définies.
     - Ajoutez d'autres cibles à votre guise.
@@ -87,23 +88,29 @@ Chacun des membres du binôme devra suivre ces instructions au moins une fois.
 Avec la commande `> git log --all --decorate --graph --pretty=format:"%ar (%an) %s""`, l'historique de votre travail devrait au fil du temps ressembler à ceci (lire du bas vers le haut):
 
 ```
-*   1 hour ago (origin/master, origin/HEAD, master) Merge pull request #3 from MickeyMouse/implementation-l_length
+*   1 hour ago (origin/master, origin/HEAD, master) Merge pull request #4 from MickeyMouse/implementation-l_length
 |\
 | * 3 hours ago (DonalDuck) Passe tout les tests de l_length.
 | * 4 hours ago (DonalDuck) Passe le test l_length quand la liste est longe de zéro ou une node.
 |/
-*   1 day ago Merge pull request #2 from MickeyMouse/implementation-l_make_node
+*   1 day ago Merge pull request #3 from MickeyMouse/implementation-l_make_node
 |\
 | * 1 day ago (Donald Duck) Passe les tests de l_make_node.
 |/
-*   2 days ago (Mickey Mouse) Merge pull request #1 from MickeyMouse/reparation-makefile
+*   2 days ago (Mickey Mouse) Merge pull request #2 from MickeyMouse/reparation-makefile
 |\
+| * 2 days ago (Mickey Mouse) Peut invoquer check pour lancer le programme de test.
 | * 2 days ago (Mickey Mouse) Peut compiler, lancer et déboguer le programme test.
+| * 2 days ago (Mickey Mouse) Peut compiler la bibliothèque libliste.a.
 |/
-* 68cb404 Initial commit
+*   3 days ago (Donald Duck) Merge pull request #1 from MickeyMouse/correction-URL
+|\
+| * 3 days ago (Donald Duck) Corrigé URL du badge en tête du README comme demandé.
+|/
+* 3 days ago Initial commit
 ```
 
-Remarquez les deux collaborateurs qui contribuent au même dépôt.
+Remarquez que les deux collaborateurs contribuent au même dépôt.
 
 ## "J'ai un problème !"
 
