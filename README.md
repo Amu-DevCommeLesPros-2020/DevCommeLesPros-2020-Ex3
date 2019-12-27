@@ -1,17 +1,17 @@
-![](https://github.com/thierryseegers/ProgImpAv-2020-Ex3/workflows/Test%20master/badge.svg)
+![](https://github.com/thierryseegers/DevCommeLesPros-2020-Ex3/workflows/Test%20master/badge.svg)
 
-# ProgImpAv-2020-Ex3
+# DevCommeLesPros-2020-Ex3
 
 Modèle de départ pour exercices d'introduction au travail par équipe avec github et intégration continue.
 
 ## Instructions de départ
 
-Ces intructions présupposent que vous avez déjà suivi les instructions du [premier exercice](https://github.com/thierryseegers/ProgImpAv-2020-Ex1) pour la création de compte et l'installation des programmes et extensions nécéssaires.
+Ces intructions présupposent que vous avez déjà suivi les instructions du [premier exercice](https://github.com/thierryseegers/DevCommeLesPros-2020-Ex1) pour la création de compte et l'installation des programmes et extensions nécéssaires.
 
 Pour cet exercice, vous devez travailler en binôme sur un même dépôt. Choisissez qui du binôme créera le dépôt. Par la suite, ce même dépôt sera cloné par les deux membres du binôme.
 
 Pour créer le dépôt (un membre du binôme):
-1. Créez votre dépôt sur github.com en utilisant ce dépôt-ci (https://github.com/thierryseegers/ProgImpAv-2020-Ex3) comme modèle.
+1. Créez votre dépôt sur github.com en utilisant ce dépôt-ci (https://github.com/thierryseegers/DevCommeLesPros-2020-Ex3) comme modèle.
     - Suivez ces instructions: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template.
     - Choisissez l'option `Private` à l'étape 5.
 1. Ajoutez le professeur comme collaborateur à votre dépôt.
@@ -23,7 +23,7 @@ Pour créer le dépôt (un membre du binôme):
 Pour cloner le dépôt (deux membres du binôme):
 1. Clonez le dépôt vers votre espace de travail local.
     - Suivez ces instructions: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
-    - Attention à ne pas cloner https://github.com/thierryseegers/ProgImpAv-2020-Ex3 mais bien votre dépôt nouvellement créé.
+    - Attention à ne pas cloner https://github.com/thierryseegers/DevCommeLesPros-2020-Ex3 mais bien votre dépôt nouvellement créé.
 1. Lancez Visual Studio Code.
     - À l'invite de commandes:
         - `> cd [nom de votre dépôt]`
@@ -114,7 +114,7 @@ Remarquez que les deux collaborateurs contribuent au même dépôt.
 
 ## "J'ai un problème !"
 
-Voyez les indications données dans le [premier exercice](https://github.com/thierryseegers/ProgImpAv-2020-Ex1#jai-un-probl%C3%A8me-) à ce sujet.
+Voyez les indications données dans le [premier exercice](https://github.com/thierryseegers/DevCommeLesPros-2020-Ex1#jai-un-probl%C3%A8me-) à ce sujet.
 
 ## Correction
 
