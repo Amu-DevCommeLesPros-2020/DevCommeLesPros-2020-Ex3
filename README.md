@@ -6,11 +6,11 @@ Modèle de départ pour exercices d'introduction au travail par équipe avec git
 
 ## Instructions de départ
 
-Ces intructions présupposent que vous avez déjà suivi les instructions du [premier exercice](https://github.com/thierryseegers/DevCommeLesPros-2020-Ex1) pour la création de compte et l'installation des programmes et extensions nécéssaires.
+Ces intructions présupposent que vous avez déjà suivi les instructions du [premier exercice](https://github.com/thierryseegers/DevCommeLesPros-2020-Ex1#instructions-de-d%C3%A9part) pour la création de compte et l'installation des programmes et extensions nécéssaires.
 
 Pour cet exercice, vous devez travailler en binôme sur un même dépôt. Choisissez qui du binôme créera le dépôt. Par la suite, ce même dépôt sera cloné par les deux membres du binôme.
 
-Pour créer le dépôt (un membre du binôme):
+#### Pour créer le dépôt (un membre du binôme):
 1. Créez votre dépôt sur github.com en utilisant ce dépôt-ci (https://github.com/thierryseegers/DevCommeLesPros-2020-Ex3) comme modèle.
     - Suivez ces instructions: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template.
     - Choisissez l'option `Private` à l'étape 5.
@@ -20,7 +20,7 @@ Pour créer le dépôt (un membre du binôme):
 1. Ajoutez votre co-équipier(ère) comme collaborateur à votre dépôt.
     - Suivez les instructions de l'étape précédente.
 
-Pour cloner le dépôt (deux membres du binôme):
+#### Pour cloner le dépôt (deux membres du binôme):
 1. Clonez le dépôt vers votre espace de travail local.
     - Suivez ces instructions: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
     - Attention à ne pas cloner https://github.com/thierryseegers/DevCommeLesPros-2020-Ex3 mais bien votre dépôt nouvellement créé.
@@ -35,19 +35,20 @@ Pour cloner le dépôt (deux membres du binôme):
 
 Pour commencer, le programme de test de cet exercice a tout ses tests commentés.
 Il vous faudra les décommenter à mesure qui vous implémenterez les fonctionalités de la bibliothèque `liste`. Le programme de test:
-- affiche le résultat de chaque test exécutés (i.e. `[SUCCES]` ou `[ECHEC]`).
-- affiche en fin d'exécution la fraction du nombre de tests réussis sur le nombre de tests exécutés (e.g. `10/16`).
-- retourne comme valeur la différence entre les tests exécutés et les tests réussis (e.g. 16 - 10 -> `6`).
+- affiche le résultat de chaque test exécutés (`[SUCCES]` ou `[ECHEC]`).
+- affiche en fin d'exécution la fraction du nombre de tests réussis sur le nombre de tests exécutés (p. ex. `10/16`).
+- retourne comme valeur la différence entre les tests exécutés et les tests réussis (p. ex. 16 - 10 -> `6`).
 
 Vous devrez:
 
-1. Modifier l'URL en tête de ce document pour refléter l'URL de votre dépôt.
+1. Modifier l'URL en tête du document `README.md` pour refléter l'URL de votre dépôt.
 1. Complétez le fichier `makefile`:
     - Complétez les cibles déjà définies.
     - Ajoutez d'autres cibles à votre guise.
 1. Implémentez correctement toutes les fonctions de la bibliothèque logicielle `liste` pour que finalement le programme `test` affiche `87/87` et retourne `0`.
 
 Il vous est permis: 
+- De modifier le fichier `README.md`.
 - De modifier le fichier `makefile`.
 - De modifier le fichier `lib/liste.c` afin d'implémenter les fonctions qu'il contient.
 - De modifier le fichier `test/main.c` pour activer le plus de tests possible.
@@ -116,7 +117,7 @@ Remarquez que les deux collaborateurs contribuent au même dépôt.
 
 Voyez les indications données dans le [premier exercice](https://github.com/thierryseegers/DevCommeLesPros-2020-Ex1#jai-un-probl%C3%A8me-) à ce sujet.
 
-## Correction
+## Évaluation
 
 Dans le répertoire `correction`, vous trouverez le script que le professeur utilisera pour automatiser une première partie du processus de correction.
 Pour une liste de dépôts donnée dans `correction/depots.txt`, le script:
