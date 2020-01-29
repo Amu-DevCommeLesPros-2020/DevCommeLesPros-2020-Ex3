@@ -10,7 +10,7 @@ Ces intructions présupposent que vous avez déjà suivi les instructions du [pr
 
 Pour cet exercice, vous devez travailler en binôme sur un même dépôt. Choisissez qui du binôme créera le dépôt. Par la suite, ce même dépôt sera cloné par les deux membres du binôme.
 
-Pour créer le dépôt (un membre du binôme):
+#### Pour créer le dépôt (un membre du binôme):
 1. Créez votre dépôt sur github.com en utilisant ce dépôt-ci (https://github.com/thierryseegers/DevCommeLesPros-2020-Ex3) comme modèle.
     - Suivez ces instructions: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template.
     - Choisissez l'option `Private` à l'étape 5.
@@ -20,7 +20,7 @@ Pour créer le dépôt (un membre du binôme):
 1. Ajoutez votre co-équipier(ère) comme collaborateur à votre dépôt.
     - Suivez les instructions de l'étape précédente.
 
-Pour cloner le dépôt (deux membres du binôme):
+#### Pour cloner le dépôt (deux membres du binôme):
 1. Clonez le dépôt vers votre espace de travail local.
     - Suivez ces instructions: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
     - Attention à ne pas cloner https://github.com/thierryseegers/DevCommeLesPros-2020-Ex3 mais bien votre dépôt nouvellement créé.
