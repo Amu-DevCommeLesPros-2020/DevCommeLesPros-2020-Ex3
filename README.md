@@ -35,9 +35,9 @@ Pour cet exercice, vous devez travailler en binôme sur un même dépôt. Choisi
 
 Pour commencer, le programme de test de cet exercice a tout ses tests commentés.
 Il vous faudra les décommenter à mesure qui vous implémenterez les fonctionalités de la bibliothèque `liste`. Le programme de test:
-- affiche le résultat de chaque test exécutés (i.e. `[SUCCES]` ou `[ECHEC]`).
-- affiche en fin d'exécution la fraction du nombre de tests réussis sur le nombre de tests exécutés (e.g. `10/16`).
-- retourne comme valeur la différence entre les tests exécutés et les tests réussis (e.g. 16 - 10 -> `6`).
+- affiche le résultat de chaque test exécutés (`[SUCCES]` ou `[ECHEC]`).
+- affiche en fin d'exécution la fraction du nombre de tests réussis sur le nombre de tests exécutés (p. ex. `10/16`).
+- retourne comme valeur la différence entre les tests exécutés et les tests réussis (p. ex. 16 - 10 -> `6`).
 
 Vous devrez:
 
