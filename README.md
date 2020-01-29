@@ -41,13 +41,14 @@ Il vous faudra les décommenter à mesure qui vous implémenterez les fonctional
 
 Vous devrez:
 
-1. Modifier l'URL en tête de ce document pour refléter l'URL de votre dépôt.
+1. Modifier l'URL en tête du document `README.md` pour refléter l'URL de votre dépôt.
 1. Complétez le fichier `makefile`:
     - Complétez les cibles déjà définies.
     - Ajoutez d'autres cibles à votre guise.
 1. Implémentez correctement toutes les fonctions de la bibliothèque logicielle `liste` pour que finalement le programme `test` affiche `87/87` et retourne `0`.
 
 Il vous est permis: 
+- De modifier le fichier `README.md`.
 - De modifier le fichier `makefile`.
 - De modifier le fichier `lib/liste.c` afin d'implémenter les fonctions qu'il contient.
 - De modifier le fichier `test/main.c` pour activer le plus de tests possible.
