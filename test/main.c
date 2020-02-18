@@ -32,7 +32,7 @@ int tests_reussis = 0;
 // Compare le contenu de deux fichiers aux chemins a et b avec la commande diff. Incrémente test_reussis si les fichiers sont pareils.
 #define TEST_FILE(a, b) tests_executes += 1;                                                \
                         {                                                                   \
-                            int const r = system("diff --text " a " " b " > /dev/null");    \
+                            int const r = system("diff --text --strip-trailing-cr " a " " b " > /dev/null");    \
                             if(!WEXITSTATUS(r))                                             \
                             {                                                               \
                                 tests_reussis += 1;                                         \
@@ -42,7 +42,7 @@ int tests_reussis = 0;
                             {                                                               \
                                 printf("[ECHEC ] ");                                        \
                             }                                                               \
-                            printf(STRINGIZE(__FILE__) ", " STRINGIZE(__LINE__) ": diff --test " STRINGIZE(a) " " STRINGIZE(b) "\n");   \
+                            printf(STRINGIZE(__FILE__) ", " STRINGIZE(__LINE__) ": diff --test --strip-trailing-cr " STRINGIZE(a) " " STRINGIZE(b) "\n");   \
                         }
 
 // Fonction à executer lors d'une segmentation fault.
