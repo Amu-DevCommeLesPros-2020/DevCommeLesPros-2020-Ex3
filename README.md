@@ -83,8 +83,11 @@ Chacun des membres du binôme devra suivre ces instructions au moins une fois.
     - Vous devriez voir une «fenêtre» apparaître comme celle-ci : 
     ![Intégration Conitnue enclenchée](https://user-images.githubusercontent.com/1580647/75868664-a806f900-5e08-11ea-8fd5-cc1df9f6ca42.png)
 1. Assurez-vous que le résultat de la compilation et du test automatique par le service d'Intégration Continu soit positif!
-    - Le fenêtre précédente devrait devenir comme celle-ci :
+    - La fenêtre précédente devrait devenir comme celle-ci :
     ![Intégration Conitnue réussie](https://user-images.githubusercontent.com/1580647/75868675-b05f3400-5e08-11ea-93b1-87756c4dc80f.png)
+1. Si le résultat échoue, vous devez réparer le problème sur votre branche dans votre dépôt local et apporter les modifications nécéssaires.
+    - Si la fenêtre vous montre ceci, **vous ne devez pas fusionner votre branche** :
+    ![Intégration Conitnue échoue](https://user-images.githubusercontent.com/1580647/75869715-421b7100-5e0a-11ea-81b1-50854cc01c7b.png)
 1. Demander à votre co-équipier(ère) de passer en revue vos modifications, de suggérer des améliorations si besoin est et, ultimement, d'approuver.
     - Suivez ces instructions pour demander une revue: https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/requesting-a-pull-request-review
     - Suivez ces instructions pour faire une revue: https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request
