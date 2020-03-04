@@ -42,8 +42,12 @@ Il vous faudra les décommenter à mesure qui vous implémenterez les fonctional
 Vous devrez:
 
 1. Modifier l'URL en tête du document `README.md` pour refléter l'URL de votre dépôt.
+    - L'URL doit ressembler à `https://github.com/[nom-de-votre-compte]/[nom-de-votre-depot]/workflows/Test%20master/badge.svg`.
+    - Cet URL présente un "badge" qui r´´flete l'état de santé de votre dépôt.
 1. Complétez le fichier `makefile`:
     - Complétez les cibles déjà définies.
+        - La cible `check` doit dépendre de la cible `build/test` et doit invoquer le programme de test.
+        - **Il est impératifs que les cibles `build/libliste.a`, `build/test` et `check` soient définies pour la bonne exécution de cet exercice.**
     - Ajoutez d'autres cibles à votre guise.
 1. Implémentez correctement toutes les fonctions de la bibliothèque logicielle `liste` pour que finalement le programme `test` affiche `87/87` et retourne `0`.
 
