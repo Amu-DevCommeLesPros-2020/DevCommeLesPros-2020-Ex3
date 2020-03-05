@@ -43,7 +43,7 @@ Vous devrez:
 
 1. Modifier l'URL en tête du document `README.md` pour refléter l'URL de votre dépôt.
     - L'URL doit ressembler à `https://github.com/[nom-de-votre-compte]/[nom-de-votre-depot]/workflows/Test%20master/badge.svg`.
-    - Cet URL présente un "badge" qui r´´flete l'état de santé de votre dépôt.
+    - Cet URL présente un "badge" qui réflete l'état de santé de votre dépôt.
 1. Complétez le fichier `makefile`:
     - Complétez les cibles déjà définies.
         - La cible `check` doit dépendre de la cible `build/test` et doit invoquer le programme de test.
