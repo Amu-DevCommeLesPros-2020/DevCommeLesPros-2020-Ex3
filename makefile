@@ -4,4 +4,3 @@ build/test:
 
 # Lance le programme build/test.
 check:
-	false
